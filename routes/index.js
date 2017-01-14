@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var path = 'views/';
+var path = '../views/';
 
 /* GET home page. */
 router.get("/",function(req,res){
